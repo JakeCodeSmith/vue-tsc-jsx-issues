@@ -1,7 +1,7 @@
 {
-  "name": "vue-vsvode-jsx-issues",
+  "name": "vue-tsc-jsx-issues",
   "version": "0.0.0",
-  "description": "Demonstrate issues with Vue VSCode plugin when React installed",
+  "description": "Demonstrate JSX issues with vue-tsc when React installed",
   "main": "index.js",
   "scripts": {
     "dev": "storybook dev -p 3000",
