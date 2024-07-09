@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "strict": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "preserveSymlinks": true,
+    "sourceMap": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "target": "ES2015",
+    "module": "esnext",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "dom", "DOM.Iterable"],
+    "types": ["vitest/globals", "node", "vite/client"]
+  },
+  "vueCompilerOptions": {
+    "target": 3,
+    "extensions": [".vue"]
+  },
+  "include": ["./src", "src/vue.d.ts"]
+}

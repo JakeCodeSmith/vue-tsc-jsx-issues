@@ -1,0 +1,48 @@
+{
+  "name": "vue-vsvode-jsx-issues",
+  "version": "0.0.0",
+  "description": "Demonstrate issues with Vue VSCode plugin when React installed",
+  "main": "index.js",
+  "scripts": {
+    "dev": "storybook dev -p 3000",
+    "start": "npm run dev",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "npm run typecheck"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakecodesmith/vue-vsvode-jsx-issues.git"
+  },
+  "keywords": [
+    "vue",
+    "vscode",
+    "jsx",
+    "issue"
+  ],
+  "author": "Jake Smith",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jakecodesmith/vue-vsvode-jsx-issues/issues"
+  },
+  "homepage": "https://github.com/jakecodesmith/vue-vsvode-jsx-issues#readme",
+  "volta": {
+    "node": "18.18.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vue": "^3.4.23",
+    "vue-tsc": "^2.0.26",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.1.11",
+    "@storybook/blocks": "^8.1.11",
+    "@storybook/vue3-vite": "^8.1.11",
+    "@types/node": "^18.19.31",
+    "prettier": "^3.0.3",
+    "storybook": "^8.1.11",
+    "vitest": "^1.5.0"
+  }
+}
