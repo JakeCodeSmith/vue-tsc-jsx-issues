@@ -20,7 +20,7 @@ npm test
 
 In `src/Example.vue` there is an error on line 4 where the `@click` handler is expecting type `MouseEventHandler<HTMLButtonElement>` (which comes from React).
 
-In `src/Example2.vue` there is _no_ type error on line 6 where incorrect types are used for the `:ref` handler (instead it expect the types of React's `ref`).
+In `src/Example2.vue` there is _no_ type error on line 6 where incorrect types are used for the `:ref` handler (instead it expects the types of React's `ref`).
 
 If I understand correctly, these template should not be being treated as JSX.
 
