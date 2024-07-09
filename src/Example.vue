@@ -2,7 +2,7 @@
   <div>
     <!-- There should _not_ be an error on the line below-->
     <button @click="onClick" class="red">Increment</button>
-    <!-- @vue-ignore Proves the issue is with Vue/VSCode extension -->
+    <!-- @vue-ignore Proves the issue is with vue and not typescript itself (@tsignore does not silence the error) -->
     <button @click="onClick">Increment</button>
     <div>
       {{ count }}
